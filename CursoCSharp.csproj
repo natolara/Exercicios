@@ -1,0 +1,298 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DEFD590C-63C1-4A33-AB8E-45C3616CFCBF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Properties</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cadastro\Cadastro.sln" />
+    <Content Include="Cadastro\Cadastro\bin\Debug\netcoreapp2.1\Cadastro.dll" />
+    <Content Include="Cadastro\Cadastro\bin\Debug\netcoreapp2.1\Cadastro.pdb" />
+    <Content Include="Cadastro\Cadastro\Cadastro.csproj" />
+    <Content Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.csproj.FileListAbsolute.txt" />
+    <Content Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.dll" />
+    <Content Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.pdb" />
+    <Content Include="ConsoleApp1\ConsoleApp1.sln" />
+    <Content Include="ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll" />
+    <Content Include="ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb" />
+    <Content Include="ConsoleApp1\ConsoleApp1\ConsoleApp1.csproj" />
+    <Content Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.FileListAbsolute.txt" />
+    <Content Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll" />
+    <Content Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb" />
+    <Content Include="conversor\conversor.sln" />
+    <Content Include="conversor\conversor\conversor.csproj" />
+    <Content Include="Course\Course.sln" />
+    <Content Include="Course\Course\bin\Debug\netcoreapp2.1\Course.dll" />
+    <Content Include="Course\Course\bin\Debug\netcoreapp2.1\Course.pdb" />
+    <Content Include="Course\Course\Course.csproj" />
+    <Content Include="Course\Course\obj\Debug\netcoreapp2.1\Course.csproj.FileListAbsolute.txt" />
+    <Content Include="Course\Course\obj\Debug\netcoreapp2.1\Course.dll" />
+    <Content Include="Course\Course\obj\Debug\netcoreapp2.1\Course.pdb" />
+    <Content Include="Encapsulamento\Encapsulamento.sln" />
+    <Content Include="Encapsulamento\Encapsulamento\bin\Debug\netcoreapp2.1\Encapsulamento.dll" />
+    <Content Include="Encapsulamento\Encapsulamento\bin\Debug\netcoreapp2.1\Encapsulamento.pdb" />
+    <Content Include="Encapsulamento\Encapsulamento\Encapsulamento.csproj" />
+    <Content Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.csproj.FileListAbsolute.txt" />
+    <Content Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.dll" />
+    <Content Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.pdb" />
+    <Content Include="Estoque\Estoque.sln" />
+    <Content Include="Estoque\Estoque\bin\Debug\netcoreapp2.1\Estoque.dll" />
+    <Content Include="Estoque\Estoque\bin\Debug\netcoreapp2.1\Estoque.pdb" />
+    <Content Include="Estoque\Estoque\Estoque.csproj" />
+    <Content Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.csproj.FileListAbsolute.txt" />
+    <Content Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.dll" />
+    <Content Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.pdb" />
+    <Content Include="exerciccio2\exerciccio2.sln" />
+    <Content Include="exerciccio2\exerciccio2\bin\Debug\netcoreapp2.1\exerciccio2.dll" />
+    <Content Include="exerciccio2\exerciccio2\bin\Debug\netcoreapp2.1\exerciccio2.pdb" />
+    <Content Include="exerciccio2\exerciccio2\exerciccio2.csproj" />
+    <Content Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.csproj.FileListAbsolute.txt" />
+    <Content Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.dll" />
+    <Content Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.pdb" />
+    <Content Include="exercicioClasse01\exercicioClasse01.sln" />
+    <Content Include="exercicioClasse01\exercicioClasse01\bin\Debug\netcoreapp2.1\exercicioClasse01.dll" />
+    <Content Include="exercicioClasse01\exercicioClasse01\bin\Debug\netcoreapp2.1\exercicioClasse01.pdb" />
+    <Content Include="exercicioClasse01\exercicioClasse01\exercicioClasse01.csproj" />
+    <Content Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.csproj.FileListAbsolute.txt" />
+    <Content Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.dll" />
+    <Content Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.pdb" />
+    <Content Include="exercicioClasses\exercicioClasses.sln" />
+    <Content Include="exercicioClasses\exercicioClasses\bin\Debug\netcoreapp2.1\exercicioClasses.dll" />
+    <Content Include="exercicioClasses\exercicioClasses\bin\Debug\netcoreapp2.1\exercicioClasses.pdb" />
+    <Content Include="exercicioClasses\exercicioClasses\exercicioClasses.csproj" />
+    <Content Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.csproj.FileListAbsolute.txt" />
+    <Content Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.dll" />
+    <Content Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.pdb" />
+    <Content Include="Exercicios\Exercicios.sln" />
+    <Content Include="Exercicios\Exercicios\bin\Debug\netcoreapp2.1\Exercicios.dll" />
+    <Content Include="Exercicios\Exercicios\bin\Debug\netcoreapp2.1\Exercicios.pdb" />
+    <Content Include="Exercicios\Exercicios\Exercicios.csproj" />
+    <Content Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.csproj.FileListAbsolute.txt" />
+    <Content Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.dll" />
+    <Content Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.pdb" />
+    <Content Include="PythonClusteringApplication1\PythonClusteringApplication1\clustering.py" />
+    <Content Include="PythonClusteringApplication2\PythonClusteringApplication2\clustering.py" />
+    <Content Include="Turismo\Turismo.sln" />
+    <Content Include="Turismo\Turismo\bin\Debug\netcoreapp2.1\Turismo.dll" />
+    <Content Include="Turismo\Turismo\bin\Debug\netcoreapp2.1\Turismo.pdb" />
+    <Content Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.csproj.FileListAbsolute.txt" />
+    <Content Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.dll" />
+    <Content Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.pdb" />
+    <Content Include="Turismo\Turismo\Turismo.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cadastro\Cadastro\Funcionario.cs" />
+    <Compile Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.AssemblyInfo.cs" />
+    <Compile Include="Cadastro\Cadastro\Program.cs" />
+    <Compile Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs" />
+    <Compile Include="ConsoleApp1\ConsoleApp1\Program.cs" />
+    <Compile Include="conversor\conversor\Conversor.cs" />
+    <Compile Include="conversor\conversor\obj\Debug\netcoreapp2.1\conversor.AssemblyInfo.cs" />
+    <Compile Include="conversor\conversor\Program.cs" />
+    <Compile Include="Course\Course\obj\Debug\netcoreapp2.1\Course.AssemblyInfo.cs" />
+    <Compile Include="Course\Course\Produto.cs" />
+    <Compile Include="Course\Course\Program.cs" />
+    <Compile Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.AssemblyInfo.cs" />
+    <Compile Include="Encapsulamento\Encapsulamento\Produto.cs" />
+    <Compile Include="Encapsulamento\Encapsulamento\Program.cs" />
+    <Compile Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.AssemblyInfo.cs" />
+    <Compile Include="Estoque\Estoque\Produto.cs" />
+    <Compile Include="Estoque\Estoque\Program.cs" />
+    <Compile Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.AssemblyInfo.cs" />
+    <Compile Include="exerciccio2\exerciccio2\Program.cs" />
+    <Compile Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.AssemblyInfo.cs" />
+    <Compile Include="exercicioClasse01\exercicioClasse01\Pessoa.cs" />
+    <Compile Include="exercicioClasse01\exercicioClasse01\Program.cs" />
+    <Compile Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.AssemblyInfo.cs" />
+    <Compile Include="exercicioClasses\exercicioClasses\Program.cs" />
+    <Compile Include="exercicioClasses\exercicioClasses\Triangulo.cs" />
+    <Compile Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.AssemblyInfo.cs" />
+    <Compile Include="Exercicios\Exercicios\Program.cs" />
+    <Compile Include="ExPropties\Produto.cs" />
+    <Compile Include="ExPropties\Program.cs" />
+    <Compile Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.AssemblyInfo.cs" />
+    <Compile Include="Turismo\Turismo\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cadastro\Cadastro\bin\Debug\netcoreapp2.1\Cadastro.deps.json" />
+    <None Include="Cadastro\Cadastro\bin\Debug\netcoreapp2.1\Cadastro.runtimeconfig.dev.json" />
+    <None Include="Cadastro\Cadastro\bin\Debug\netcoreapp2.1\Cadastro.runtimeconfig.json" />
+    <None Include="Cadastro\Cadastro\obj\Cadastro.csproj.nuget.cache" />
+    <None Include="Cadastro\Cadastro\obj\Cadastro.csproj.nuget.dgspec.json" />
+    <None Include="Cadastro\Cadastro\obj\Cadastro.csproj.nuget.g.props" />
+    <None Include="Cadastro\Cadastro\obj\Cadastro.csproj.nuget.g.targets" />
+    <None Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.AssemblyInfoInputs.cache" />
+    <None Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.assets.cache" />
+    <None Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.csproj.CoreCompileInputs.cache" />
+    <None Include="Cadastro\Cadastro\obj\Debug\netcoreapp2.1\Cadastro.csprojAssemblyReference.cache" />
+    <None Include="Cadastro\Cadastro\obj\project.assets.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.dgspec.json" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.g.props" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.g.targets" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.assets.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache" />
+    <None Include="ConsoleApp1\ConsoleApp1\obj\project.assets.json" />
+    <None Include="conversor\conversor\obj\conversor.csproj.nuget.cache" />
+    <None Include="conversor\conversor\obj\conversor.csproj.nuget.dgspec.json" />
+    <None Include="conversor\conversor\obj\conversor.csproj.nuget.g.props" />
+    <None Include="conversor\conversor\obj\conversor.csproj.nuget.g.targets" />
+    <None Include="conversor\conversor\obj\Debug\netcoreapp2.1\conversor.AssemblyInfoInputs.cache" />
+    <None Include="conversor\conversor\obj\Debug\netcoreapp2.1\conversor.assets.cache" />
+    <None Include="conversor\conversor\obj\Debug\netcoreapp2.1\conversor.csproj.CoreCompileInputs.cache" />
+    <None Include="conversor\conversor\obj\Debug\netcoreapp2.1\conversor.csprojAssemblyReference.cache" />
+    <None Include="conversor\conversor\obj\project.assets.json" />
+    <None Include="Course\Course\bin\Debug\netcoreapp2.1\Course.deps.json" />
+    <None Include="Course\Course\bin\Debug\netcoreapp2.1\Course.runtimeconfig.dev.json" />
+    <None Include="Course\Course\bin\Debug\netcoreapp2.1\Course.runtimeconfig.json" />
+    <None Include="Course\Course\obj\Course.csproj.nuget.cache" />
+    <None Include="Course\Course\obj\Course.csproj.nuget.dgspec.json" />
+    <None Include="Course\Course\obj\Course.csproj.nuget.g.props" />
+    <None Include="Course\Course\obj\Course.csproj.nuget.g.targets" />
+    <None Include="Course\Course\obj\Debug\netcoreapp2.1\Course.AssemblyInfoInputs.cache" />
+    <None Include="Course\Course\obj\Debug\netcoreapp2.1\Course.assets.cache" />
+    <None Include="Course\Course\obj\Debug\netcoreapp2.1\Course.csproj.CoreCompileInputs.cache" />
+    <None Include="Course\Course\obj\Debug\netcoreapp2.1\Course.csprojAssemblyReference.cache" />
+    <None Include="Course\Course\obj\project.assets.json" />
+    <None Include="Encapsulamento\Encapsulamento\bin\Debug\netcoreapp2.1\Encapsulamento.deps.json" />
+    <None Include="Encapsulamento\Encapsulamento\bin\Debug\netcoreapp2.1\Encapsulamento.runtimeconfig.dev.json" />
+    <None Include="Encapsulamento\Encapsulamento\bin\Debug\netcoreapp2.1\Encapsulamento.runtimeconfig.json" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.AssemblyInfoInputs.cache" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.assets.cache" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.csproj.CoreCompileInputs.cache" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Debug\netcoreapp2.1\Encapsulamento.csprojAssemblyReference.cache" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Encapsulamento.csproj.nuget.cache" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Encapsulamento.csproj.nuget.dgspec.json" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Encapsulamento.csproj.nuget.g.props" />
+    <None Include="Encapsulamento\Encapsulamento\obj\Encapsulamento.csproj.nuget.g.targets" />
+    <None Include="Encapsulamento\Encapsulamento\obj\project.assets.json" />
+    <None Include="Estoque\Estoque\bin\Debug\netcoreapp2.1\Estoque.deps.json" />
+    <None Include="Estoque\Estoque\bin\Debug\netcoreapp2.1\Estoque.runtimeconfig.dev.json" />
+    <None Include="Estoque\Estoque\bin\Debug\netcoreapp2.1\Estoque.runtimeconfig.json" />
+    <None Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.AssemblyInfoInputs.cache" />
+    <None Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.assets.cache" />
+    <None Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.csproj.CoreCompileInputs.cache" />
+    <None Include="Estoque\Estoque\obj\Debug\netcoreapp2.1\Estoque.csprojAssemblyReference.cache" />
+    <None Include="Estoque\Estoque\obj\Estoque.csproj.nuget.cache" />
+    <None Include="Estoque\Estoque\obj\Estoque.csproj.nuget.dgspec.json" />
+    <None Include="Estoque\Estoque\obj\Estoque.csproj.nuget.g.props" />
+    <None Include="Estoque\Estoque\obj\Estoque.csproj.nuget.g.targets" />
+    <None Include="Estoque\Estoque\obj\project.assets.json" />
+    <None Include="exerciccio2\exerciccio2\bin\Debug\netcoreapp2.1\exerciccio2.deps.json" />
+    <None Include="exerciccio2\exerciccio2\bin\Debug\netcoreapp2.1\exerciccio2.runtimeconfig.dev.json" />
+    <None Include="exerciccio2\exerciccio2\bin\Debug\netcoreapp2.1\exerciccio2.runtimeconfig.json" />
+    <None Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.AssemblyInfoInputs.cache" />
+    <None Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.assets.cache" />
+    <None Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.csproj.CoreCompileInputs.cache" />
+    <None Include="exerciccio2\exerciccio2\obj\Debug\netcoreapp2.1\exerciccio2.csprojAssemblyReference.cache" />
+    <None Include="exerciccio2\exerciccio2\obj\exerciccio2.csproj.nuget.cache" />
+    <None Include="exerciccio2\exerciccio2\obj\exerciccio2.csproj.nuget.dgspec.json" />
+    <None Include="exerciccio2\exerciccio2\obj\exerciccio2.csproj.nuget.g.props" />
+    <None Include="exerciccio2\exerciccio2\obj\exerciccio2.csproj.nuget.g.targets" />
+    <None Include="exerciccio2\exerciccio2\obj\project.assets.json" />
+    <None Include="exercicioClasse01\exercicioClasse01\bin\Debug\netcoreapp2.1\exercicioClasse01.deps.json" />
+    <None Include="exercicioClasse01\exercicioClasse01\bin\Debug\netcoreapp2.1\exercicioClasse01.runtimeconfig.dev.json" />
+    <None Include="exercicioClasse01\exercicioClasse01\bin\Debug\netcoreapp2.1\exercicioClasse01.runtimeconfig.json" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.AssemblyInfoInputs.cache" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.assets.cache" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\Debug\netcoreapp2.1\exercicioClasse01.csproj.CoreCompileInputs.cache" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\exercicioClasse01.csproj.nuget.cache" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\exercicioClasse01.csproj.nuget.dgspec.json" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\exercicioClasse01.csproj.nuget.g.props" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\exercicioClasse01.csproj.nuget.g.targets" />
+    <None Include="exercicioClasse01\exercicioClasse01\obj\project.assets.json" />
+    <None Include="exercicioClasses\exercicioClasses\bin\Debug\netcoreapp2.1\exercicioClasses.deps.json" />
+    <None Include="exercicioClasses\exercicioClasses\bin\Debug\netcoreapp2.1\exercicioClasses.runtimeconfig.dev.json" />
+    <None Include="exercicioClasses\exercicioClasses\bin\Debug\netcoreapp2.1\exercicioClasses.runtimeconfig.json" />
+    <None Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.AssemblyInfoInputs.cache" />
+    <None Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.assets.cache" />
+    <None Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.csproj.CoreCompileInputs.cache" />
+    <None Include="exercicioClasses\exercicioClasses\obj\Debug\netcoreapp2.1\exercicioClasses.csprojAssemblyReference.cache" />
+    <None Include="exercicioClasses\exercicioClasses\obj\exercicioClasses.csproj.nuget.cache" />
+    <None Include="exercicioClasses\exercicioClasses\obj\exercicioClasses.csproj.nuget.dgspec.json" />
+    <None Include="exercicioClasses\exercicioClasses\obj\exercicioClasses.csproj.nuget.g.props" />
+    <None Include="exercicioClasses\exercicioClasses\obj\exercicioClasses.csproj.nuget.g.targets" />
+    <None Include="exercicioClasses\exercicioClasses\obj\project.assets.json" />
+    <None Include="Exercicios\Exercicios\bin\Debug\netcoreapp2.1\Exercicios.deps.json" />
+    <None Include="Exercicios\Exercicios\bin\Debug\netcoreapp2.1\Exercicios.runtimeconfig.dev.json" />
+    <None Include="Exercicios\Exercicios\bin\Debug\netcoreapp2.1\Exercicios.runtimeconfig.json" />
+    <None Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.AssemblyInfoInputs.cache" />
+    <None Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.assets.cache" />
+    <None Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.csproj.CoreCompileInputs.cache" />
+    <None Include="Exercicios\Exercicios\obj\Debug\netcoreapp2.1\Exercicios.csprojAssemblyReference.cache" />
+    <None Include="Exercicios\Exercicios\obj\Exercicios.csproj.nuget.cache" />
+    <None Include="Exercicios\Exercicios\obj\Exercicios.csproj.nuget.dgspec.json" />
+    <None Include="Exercicios\Exercicios\obj\Exercicios.csproj.nuget.g.props" />
+    <None Include="Exercicios\Exercicios\obj\Exercicios.csproj.nuget.g.targets" />
+    <None Include="Exercicios\Exercicios\obj\project.assets.json" />
+    <None Include="PythonClusteringApplication1\PythonClusteringApplication1\.vs\PythonClusteringApplication1\v15\.suo" />
+    <None Include="PythonClusteringApplication1\PythonClusteringApplication1\PythonClusteringApplication1.pyproj" />
+    <None Include="PythonClusteringApplication2\PythonClusteringApplication2\.vs\PythonClusteringApplication2\v15\.suo" />
+    <None Include="PythonClusteringApplication2\PythonClusteringApplication2\PythonClusteringApplication2.pyproj" />
+    <None Include="Turismo\Turismo\bin\Debug\netcoreapp2.1\Turismo.deps.json" />
+    <None Include="Turismo\Turismo\bin\Debug\netcoreapp2.1\Turismo.runtimeconfig.dev.json" />
+    <None Include="Turismo\Turismo\bin\Debug\netcoreapp2.1\Turismo.runtimeconfig.json" />
+    <None Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.AssemblyInfoInputs.cache" />
+    <None Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.assets.cache" />
+    <None Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.csproj.CoreCompileInputs.cache" />
+    <None Include="Turismo\Turismo\obj\Debug\netcoreapp2.1\Turismo.csprojAssemblyReference.cache" />
+    <None Include="Turismo\Turismo\obj\project.assets.json" />
+    <None Include="Turismo\Turismo\obj\Turismo.csproj.nuget.cache" />
+    <None Include="Turismo\Turismo\obj\Turismo.csproj.nuget.g.props" />
+    <None Include="Turismo\Turismo\obj\Turismo.csproj.nuget.g.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Properties\v16\" />
+    <Folder Include="conversor\conversor\bin\Debug\netcoreapp2.1\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
